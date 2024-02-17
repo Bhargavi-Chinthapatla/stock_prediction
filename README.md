@@ -9,7 +9,7 @@ Utilizing the 'yfinance' Python library for stock data and Twitter API for senti
 <img width="252" alt="Picture 1" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/825c75fc-babd-4820-94bc-ec127d2befbe">
 
 
-##Modeling Approaches: 
+## Modeling Approaches: 
 Employing CNN+LSTM and AR-LSTM models for stock price prediction. The former focuses on feature extraction, while the latter integrates autoregressive and LSTM components for a comprehensive approach.
 ## Sentiment Analysis Integration: 
 Incorporating sentiment polarity from Twitter data into the stock dataset, recognizing the impact of social media on market dynamics.
