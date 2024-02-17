@@ -6,9 +6,9 @@ In the complex world of stock market dynamics, where influences range from econo
 ## Data Collection and Preprocessing: 
 Utilizing the 'yfinance' Python library for stock data and Twitter API for sentiment data. Preprocessing involves handling missing values, date conversion, and normalizing stock prices.
 
-<img width="800" alt="Picture 1" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/825c75fc-babd-4820-94bc-ec127d2befbe">
+<img width="500" alt="Picture 1" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/825c75fc-babd-4820-94bc-ec127d2befbe">
 
-<img width="800" alt="2" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/fbbcbb26-f409-495c-a2bb-250ea9f31958">
+<img width="500" alt="2" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/fbbcbb26-f409-495c-a2bb-250ea9f31958">
 
 ## Modeling Approaches: 
 Employing CNN+LSTM and AR-LSTM models for stock price prediction. The former focuses on feature extraction, while the latter integrates autoregressive and LSTM components for a comprehensive approach.
@@ -27,7 +27,7 @@ Assessing the robustness of models against real-time data, validating their pred
 Both CNN+LSTM and AR-LSTM predict Netflix stock movements until January 01, 2024. AR-LSTM demonstrates higher accuracy, especially in closing price values.
 ### Testing Accuracy: 
 Mean Squared Error values indicate improved accuracy when Twitter sentiment data is considered during training.
-<img width="385" alt="Screenshot 2024-02-17 at 1 28 06 AM" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/2b34084c-b562-4325-b40c-4af7d8d0b42d">
+<img width="500" alt="Screenshot 2024-02-17 at 1 28 06 AM" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/2b34084c-b562-4325-b40c-4af7d8d0b42d">
 ## Conclusion:
 The project successfully integrates deep learning models with social media sentiments for stock prediction. While CNN+LSTM captures overall trends, AR-LSTM outperforms, emphasizing its proficiency in predicting both trends and closing values. The inclusion of Twitter sentiment data significantly improves model accuracy, as reflected in reduced Mean Squared Error values.
 ## Future Work:
