@@ -1,6 +1,10 @@
 
 Introduction: In the complex world of stock market dynamics, where influences range from economic conditions to social media sentiments, making informed investment decisions is paramount. This project leverages advanced deep learning models, specifically CNN+LSTM and AR-LSTM, to forecast stock price movements. The dataset, sourced from Yahoo Finance, spans Netflix stock data from January 2020 to December 2023. Recognizing the impact of social media, Twitter data is incorporated for sentiment analysis, adding a nuanced layer to stock predictions.
+
+
 Data Collection and Preprocessing: Utilizing the 'yfinance' Python library for stock data and Twitter API for sentiment data. Preprocessing involves handling missing values, date conversion, and normalizing stock prices.
+
+
 Modeling Approaches: Employing CNN+LSTM and AR-LSTM models for stock price prediction. The former focuses on feature extraction, while the latter integrates autoregressive and LSTM components for a comprehensive approach.
 Sentiment Analysis Integration: Incorporating sentiment polarity from Twitter data into the stock dataset, recognizing the impact of social media on market dynamics.
 Comparative Analysis: Evaluating the performance of CNN+LSTM and AR-LSTM using mean square error as the loss function, showcasing the efficacy of each model in predicting stock movements.
