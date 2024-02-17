@@ -6,7 +6,7 @@ In the complex world of stock market dynamics, where influences range from econo
 ## Data Collection and Preprocessing: 
 Utilizing the 'yfinance' Python library for stock data and Twitter API for sentiment data. Preprocessing involves handling missing values, date conversion, and normalizing stock prices.
 
-<img width="252" alt="Picture 1" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/825c75fc-babd-4820-94bc-ec127d2befbe">
+<img width="500" alt="Picture 1" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/825c75fc-babd-4820-94bc-ec127d2befbe">
 
 
 ## Modeling Approaches: 
