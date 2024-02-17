@@ -27,6 +27,7 @@ Assessing the robustness of models against real-time data, validating their pred
 Both CNN+LSTM and AR-LSTM predict Netflix stock movements until January 01, 2024. AR-LSTM demonstrates higher accuracy, especially in closing price values.
 ### Testing Accuracy: 
 Mean Squared Error values indicate improved accuracy when Twitter sentiment data is considered during training.
+<img width="385" alt="Screenshot 2024-02-17 at 1 28 06 AM" src="https://github.com/Bhargavi-Chinthapatla/stock_prediction/assets/149857162/2b34084c-b562-4325-b40c-4af7d8d0b42d">
 ## Conclusion:
 The project successfully integrates deep learning models with social media sentiments for stock prediction. While CNN+LSTM captures overall trends, AR-LSTM outperforms, emphasizing its proficiency in predicting both trends and closing values. The inclusion of Twitter sentiment data significantly improves model accuracy, as reflected in reduced Mean Squared Error values.
 ## Future Work:
